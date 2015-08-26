@@ -11,10 +11,12 @@ For a global install, OSX/Linux users may need to prefix the command with sudo.
 - `ionic serve` : start the app on your browser
 
 ## Simulation
-- `ionic platform add ios` : simulate ios ( mac only )
-- `ionic emulate ios` : for ios
-- `ionic platform add android` : simulate android
-- `ionic emulate android` : for android
+Make sure proper SDK's are installed;
+
+- `ionic platform add ios` : add ios platform ( mac only )
+- `ionic emulate ios` : simulate ios
+- `ionic platform add android` : add android platform
+- `ionic emulate android` : simulate android
 
 ## Tips
 - `ionic serve --lab` : preview both ios and android version

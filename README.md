@@ -8,6 +8,7 @@ Note: For a global install of -g ionic, OSX/Linux users may need to prefix the c
 - `git@github.com:kenma9123/jotformanalytics.git` : clone this repo
 - `cd jotformanalytics` : go to folder
 - `npm install` : install build dependencies
+- `bower install` : install bower components
 - `ionic setup sass` : setup and use sass
 - `ionic resources` : setup and cache drawable resources
 - `ionic serve` : start the app on your browser

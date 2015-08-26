@@ -3,7 +3,7 @@ JotForm Analytics - Mobile Version
 
 ## Getting started
 Make sure you have `npm`, `sass`, `bower` and `ionic` installed.
-Note: For a global install, OSX/Linux users may need to prefix the command with sudo.
+For a global install, OSX/Linux users may need to prefix the command with sudo.
 
 - `git@github.com:kenma9123/jotformanalytics.git` : clone this repo
 - `cd jotformanalytics` : go to folder

@@ -2,15 +2,12 @@
 JotForm Analytics - Mobile Version
 
 ## Getting started
-Note: For a global install of -g ionic, OSX/Linux users may need to prefix the command with sudo.
+Make sure you have `npm`, `sass`, `bower` and `ionic` installed.
+Note: For a global install, OSX/Linux users may need to prefix the command with sudo.
 
-- `npm install ionic -g` : install ionic globally
 - `git@github.com:kenma9123/jotformanalytics.git` : clone this repo
 - `cd jotformanalytics` : go to folder
 - `npm install` : install build dependencies
-- `bower install` : install bower components
-- `ionic setup sass` : setup and use sass
-- `ionic resources` : setup and cache drawable resources
 - `ionic serve` : start the app on your browser
 
 ## Simulation

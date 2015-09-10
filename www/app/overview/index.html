@@ -1,0 +1,12 @@
+<ion-view view-title="Statistics">
+  <ion-header-bar class="bar form-title orange-bg">
+    <h2 class="title white-text">Dashboard</h2>
+  </ion-header-bar>
+
+  <ion-content class="" scroll="true" >
+    Form views {{formviews}}<br/>
+    <ul>
+      <li ng-repeat="info in infolist">{{info.name}} {{info.value}}</li>
+    </ul>
+  </ion-content>
+</ion-view>

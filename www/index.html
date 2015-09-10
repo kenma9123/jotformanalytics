@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-strict-di>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
@@ -22,22 +22,24 @@
     <script src="assets/lib/moment.js"></script>
 
     <!-- app's js -->
+    <script src="app/utils/common.js"></script>
+    <script src="app/utils/utils.js"></script>
+    <script src="app/utils/lodash.service.js"></script>
+    <script src="app/utils/moment.service.js"></script>
+
+    <script src="app/home/home.controller.js"></script>
+    <script src="app/overview/overview.controller.js"></script>
+
+    <script src="app/stats/service.js"></script>
+
+
+    <script src="app/app.routes.js"></script>
+    <script src="app/app.module.js"></script>
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
-
-    <!-- your app's js -->
-    <script src="app/app.module.js"></script>
   </head>
-  <body ng-app="starter">
-
-    <ion-pane>
-      <ion-header-bar class="bar-stable">
-        <h1 class="title">Ionic Blank Startesr</h1>
-      </ion-header-bar>
-      <ion-content>
-        Hello World
-      </ion-content>
-    </ion-pane>
+  <body>
+    <ion-nav-view name="main" animation="slide-left-right"></ion-nav-view>
   </body>
 </html>
